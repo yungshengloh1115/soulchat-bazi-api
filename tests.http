@@ -1,0 +1,13 @@
+### Health
+GET http://localhost:8000/health
+
+### Analyze
+POST http://localhost:8000/bazi/analyze
+Content-Type: application/json
+
+{
+  "name": "Sean",
+  "birth_date": "1992-03-14",
+  "birth_time": "23:30",
+  "timezone": "Asia/Kuala_Lumpur"
+}
